@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background: url('https://i.imgur.com/P8VR8V1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white; /* Ajusta a cor do texto para maior contraste */
+    position: relative; /* Define a posição relativa para o corpo */
+}
+
+header {
+    font-size: 2em;
+    margin-bottom: 20px; /* Margem inferior do cabeçalho */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para melhorar a legibilidade */
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.main-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Margem superior dos botões principais */
+}
+
+.main-buttons button {
+    padding: 15px 25px; /* Aumenta o tamanho do botão */
+    margin: 10px 0; /* Espaçamento vertical entre os botões */
+    font-size: 1.2em;
+    font-weight: bold; /* Texto em negrito */
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.5); /* Fundo azul com transparência */
+    border: none;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra no texto do botão */
+    border-radius: 10px; /* Cantos arredondados */
+    transition: background-color 0.3s ease; /* Transição suave de cor ao passar o mouse */
+}
+
+.main-buttons button:hover {
+    background-color: rgba(0, 0, 255, 0.7); /* Fundo azul mais escuro ao passar o mouse */
+}
+
+/* Estilos para o ícone no canto inferior direito */
+.whatsapp-icon-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 1000; /* Garante que o ícone fique acima de outros elementos */
+}
+
+.whatsapp-icon {
+    width: 60px;
+    height: 60px;
+    background-image: url('https://i.imgur.com/etZQHYu.png');
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.whatsapp-icon:hover {
+    opacity: 0.8; /* Reduz a opacidade ao passar o mouse */
+}
+
+.support-text {
+    font-size: 0.8em;
+    margin-top: 5px; /* Espaçamento entre o ícone e o texto */
+}
+
+/* Ajustes para o botão SEJA UM REVENDEDOR */
+.revendedor-button {
+    padding: 20px 40px; /* Aumenta o padding para tornar o botão maior */
+    font-size: 1.5em; /* Aumenta o tamanho da fonte */
+    background-color: blue; /* Fundo azul */
+    border-radius: 10px; /* Cantos arredondados */
+    color: white; /* Cor do texto */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra no texto */
+}
+
+.revendedor-button:hover {
+    background-color: darkblue; /* Fundo azul mais escuro ao passar o mouse */
+}
+
+/* Ícone no canto superior direito */
+.download-icon-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 1000; /* Garante que o ícone fique acima de outros elementos */
+}
+
+.download-icon {
+    width: 40px;
+    height: 40px;
+    background-image: url('https://i.imgur.com/s9yzNxl.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.download-text {
+    font-size: 0.8em;
+    margin-top: 5px; /* Espaçamento entre o ícone e o texto */
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra no texto */
+}
